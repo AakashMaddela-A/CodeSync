@@ -21,8 +21,16 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-inner">
-                <Link to="/dashboard" className="nav-logo">
-                    CodeSync
+                <Link
+                    to="/dashboard"
+                    className="flex items-center gap-3 text-white font-bold text-xl"
+                >
+                    <img
+                        src="/vite.svg"
+                        alt="CodeSync Logo"
+                        className="w-11 h-11"
+                    />
+                    <span>CodeSync</span>
                 </Link>
 
                 <div className="nav-desktop">
